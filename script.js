@@ -1,10 +1,24 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
+const li = document.getElementsByTagName("li");
+
+function toggleLi(e) {
+	if (e.target.tagName === "LI") {
+		e.target.classList.toggle("done");
+	}
+}
+
+function createDeleteButtonIcon() {
+   for icon = 0; icon < li.length; icon++) {
+	   var createDeleteButton = docuemtn.createEl
+}
 
 function inputLength() {
 	return input.value.length;
 }
+
+
 
 function createListElement() {
 	var li = document.createElement("li");
@@ -23,7 +37,9 @@ function addListAfterKeypress(event) {
 	if (inputLength() > 0 && event.keyCode === 13) {
 		createListElement();
 	}
-}
+} 
+
+ul.addEventListener("click", toggleLi);
 
 button.addEventListener("click", addListAfterClick);
 
