@@ -46,3 +46,13 @@ console.log(fruit.length);
 //Arrays 
 
 let fruits = ['banana', 'apple', 'dogs']
+
+//Looping through Array Pattern
+
+let emptyArray = new Array(); /// same as emptyArray = []
+
+for(let num = 0; num < 10; num++) {
+    emptyArray.push(num);
+}
+
+console.log(emptyArray);
