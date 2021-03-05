@@ -31,7 +31,18 @@ for (let num = 0; num <= 100; num++) {
 let yourAge = 29; //number
 let yourName = 'Bob'; // string
 let thatbitch = {first: 'Shayla', last: 'Money'}; //object 
-let truth = false; boolean
+let truth = false; //boolean
 let array = ['apple','organes'] // array
 // undefined 
 // null 
+
+// Strings (common methods) //
+
+let fruit = 'peach';
+let bestfruit = 'mango/apple';
+
+console.log(fruit.length);
+
+//Arrays 
+
+let fruits = ['banana', 'apple', 'dogs']
