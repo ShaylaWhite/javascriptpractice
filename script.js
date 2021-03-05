@@ -9,10 +9,7 @@ function toggleLi(e) {
 	}
 }
 
-function createDeleteButtonIcon() {
-   for icon = 0; icon < li.length; icon++) {
-	   var createDeleteButton = docuemtn.createEl
-}
+
 
 function inputLength() {
 	return input.value.length;
